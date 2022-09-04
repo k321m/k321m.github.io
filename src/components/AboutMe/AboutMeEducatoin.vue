@@ -1,19 +1,19 @@
 <template>
-    <v-div>
-        <h1 class="mt-9">Education</h1>
+    <div class="mt-10">
+        <h1>Education</h1>
         <v-row class="mt-3">
             <v-timeline dense>
                 <v-timeline-item v-for="item in items" :key="item">
-                    <p class="text--secondary">
+                    <div class="text--secondary">
                         {{item.time}}
-                    </p>
+                    </div>
                     <strong>
                         {{item.title}}
                     </strong>
                 </v-timeline-item>
             </v-timeline>
         </v-row>
-    </v-div>
+    </div>
 </template>
 
 <script>
