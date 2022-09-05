@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-10">
+    <div class="my-10">
         <h1>Education</h1>
         <v-row class="mt-3">
             <v-timeline dense>

@@ -1,5 +1,5 @@
 <template>
-  <div class="ma-5">
+  <div class="my-10">
     <v-row>
       <v-col cols="6">
         <v-img class="rounded-circle" :width="350" :src="imgPath"/>

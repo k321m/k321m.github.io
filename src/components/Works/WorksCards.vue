@@ -1,6 +1,6 @@
 <template>
     <div>
-        <v-row>
+        <v-row class="mb-5">
             <v-col v-for="work in works" :key="work" cols="6">
                 <v-card height="300">
                     <v-card-title class="text-h5 font-weight-bold">{{work.title}}</v-card-title>
@@ -13,7 +13,10 @@
                      </v-card-text>
                      <v-spacer></v-spacer>
                         <v-card-actions class="justify-end">
-                            <v-btn outlined large color="indigo" class="ma-5 card-actions">detail</v-btn>
+                            <v-btn outlined large color="indigo" class="ma-5 card-actions">
+                                detail
+                                <v-icon class="ma-n1" right>mdi-chevron-right</v-icon>
+                            </v-btn>
                         </v-card-actions>
                 </v-card>
             </v-col>
@@ -28,7 +31,7 @@ export default ({
         works:[
             {title: "ポートフォリオ", 
             description: "GitHubPagesを用いてポートフォリを作成しました。Vue.jsを勉強したかったためVueCLIで作成しました。", 
-            usedTechniques: ["Vue.js", "Node.js"]},
+            usedTechniques: ["Vue.js", "Vuetify"]},
             {title: "Adobe XDワークショップに登壇",
             description: "「アドビ株式会社」が本学でAdobe XDのワークショップを開催するにあたり、学生講師として指名され、モバイル名刺のプロトタイプおよびその教材を、アドビのエバンジェリストの方と二人で開発しました。",
             usedTechniques: ["Adobe XD"]},
