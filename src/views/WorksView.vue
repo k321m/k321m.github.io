@@ -1,17 +1,22 @@
 <template>
   <div>
-    <h1>This is an about page</h1>
+    <v-container>
+      <div>
+        <h1 class="mb-5">Works</h1>
+      </div>
+      <WorksCards/>
+    </v-container>
   </div>
 </template>
 
 <script>
-  import { defineComponent } from 'vue';
+import { defineComponent } from 'vue';
+import WorksCards from '@/components/Works/WorksCards.vue';
   
   // Components
   export default defineComponent({
     name: 'WorksView',
   
-    components: {
-  },
+    components: { WorksCards },
   });
-  </script>
+</script>

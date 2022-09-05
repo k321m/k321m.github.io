@@ -1,10 +1,10 @@
 <template>
-  <div class="align-center">
+  <div class="ma-5">
     <v-row>
-      <v-col>
-        <v-img :width="400" :src="imgPath"/>
+      <v-col cols="6">
+        <v-img class="rounded-circle" :width="350" :src="imgPath"/>
       </v-col>
-      <v-col class="mt-5" align-self="center">
+      <v-col cols="6" align-self="center">
         <div>
           <span class="mt-3 text-h4 font-weight-black">岸 美咲希</span>
           <span class="text-h5 font-weight-medium text--secondary ml-3">Kishi Misaki</span>
@@ -28,3 +28,4 @@ export default ({
     
 })
 </script>
+

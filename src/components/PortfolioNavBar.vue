@@ -1,19 +1,18 @@
 <template>
-    <v-container>
-        <v-app-bar app>
-            <v-app-bar-title class="text-center">
-                <h2>misaki's portfolio</h2>
-            </v-app-bar-title>
-            <template v-slot:extension>
-                <v-tabs grow>
-                    <v-tab v-for="item in items" :key="item" v-bind:to=item.path>
-                            {{item.title}}       
-                    </v-tab>
-                </v-tabs>
-            </template>
-        </v-app-bar>
-    
-    </v-container>
+    <v-app-bar app height="90">
+        <v-spacer />
+        <v-app-bar-title>
+            <h1 class="text-center mt-5">Misaki's Portfolio Page</h1>
+        </v-app-bar-title>
+        <v-spacer />
+        <template v-slot:extension>
+            <v-tabs grow>
+                <v-tab v-for="item in items" :key="item" v-bind:to=item.path>
+                        {{item.title}}       
+                </v-tab>
+            </v-tabs>
+        </template>
+    </v-app-bar>
 </template>
 
 <script>
