@@ -14,7 +14,7 @@ const routes = [
   {
     path: '/works',
     name: 'works',
-    component:WorksView  
+    component: WorksView  
   }
 ]
 
