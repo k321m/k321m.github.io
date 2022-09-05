@@ -2,7 +2,7 @@
     <v-app-bar app height="90">
         <v-spacer />
         <v-app-bar-title>
-            <h1 class="text-center mt-5">Misaki's Portfolio Page</h1>
+            <h1 class="mt-5">Misaki's Portfolio Page</h1>
         </v-app-bar-title>
         <v-spacer />
         <template v-slot:extension>
