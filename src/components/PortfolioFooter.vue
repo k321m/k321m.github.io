@@ -19,7 +19,7 @@ export default ({
     name: "PortfolioFooter",
     data: () => ({
         buttons: [
-            {icon: "mdi-email-outline", path:"mailto:19fi037@ms.dendai.ac.jp"},
+            {icon: "mdi-email-outline", path:"mailto:mmmi25fi@gmail.com"},
             {icon: "mdi-github", path:"https://github.com/k321m"},
             {icon: "mdi-web", path:"https://www.wantedly.com/id/misaki_kishi_b"}
         ]
